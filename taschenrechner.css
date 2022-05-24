@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+body {
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    border-radius: 3rem;
+
+
+    /* gap: 20px ; */
+
+}
+
+.container .zahl {
+    height: 70px;
+    border: none;
+    border-radius: 15rem;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+
+}
+
+.container .zahl17 {
+    /* grid-row-start: 5;
+    grid-row-end: 6; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 2rem;
+    justify-content: left;
+
+    background-color: rgb(47, 46, 46);
+
+}
+
+.zahl4,
+.zahl8,
+.zahl12,
+.zahl16 {
+    background-color: orange;
+}
+
+.zahl1,
+.zahl2,
+.zahl3 {
+    background-color: darkgray;
+}
+
+
+.zahl:hover {
+    background-color: black;
+    border: none;
+    transform: translateY(4px);
+}
+
+.zahl13,
+.zahl14,
+.zahl15,
+.zahl19,
+.zahl20,
+.zahl9,
+.zahl10,
+.zahl11,
+.zahl5,
+.zahl6,
+.zahl7 {
+    background-color: rgb(47, 46, 46);
+}
